@@ -9,7 +9,7 @@ int main()
 	int Xkey;
 
 	cout << "Enter your text here: ";
-	cin >> text;
+	getline(cin, text);
 
 	cout << "Enter your Xkey: ";
 	cin >> Xkey;
